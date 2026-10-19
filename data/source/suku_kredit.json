@@ -1,0 +1,2439 @@
+{
+ "tabel": "Suku Bunga Kredit Rupiah Menurut Kelompok Bank",
+ "satuan": "Persen",
+ "sumber": "Bank Indonesia via BPS",
+ "bps_table_id": "383#2",
+ "diperbarui": "2026-10-01 15:33:32",
+ "data": [
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 10.66,
+    "Februari": 10.66,
+    "Maret": 10.53,
+    "April": 10.45,
+    "Mei": 10.4,
+    "Juni": 10.36,
+    "Juli": 10.32,
+    "Agustus": 10.19,
+    "September": 10.14,
+    "Oktober": 10.11,
+    "November": 10.04,
+    "Desember": 10
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.2,
+    "Februari": 10.21,
+    "Maret": 10.19,
+    "April": 10.19,
+    "Mei": 10.08,
+    "Juni": 10.01,
+    "Juli": 10.01,
+    "Agustus": 9.99,
+    "September": 9.88,
+    "Oktober": 9.85,
+    "November": 9.8,
+    "Desember": 9.72
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 9.77,
+    "Februari": 9.75,
+    "Maret": 9.7,
+    "April": 9.38,
+    "Mei": 9.18,
+    "Juni": 9.14,
+    "Juli": 9.09,
+    "Agustus": 9.06,
+    "September": 9.03,
+    "Oktober": 8.99,
+    "November": 8.94,
+    "Desember": 8.77
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 8.86,
+    "Februari": 8.82,
+    "Maret": 8.7,
+    "April": 8.7,
+    "Mei": 8.63,
+    "Juni": 8.59,
+    "Juli": 8.55,
+    "Agustus": 8.53,
+    "September": 8.51,
+    "Oktober": 8.47,
+    "November": 8.44,
+    "Desember": 8.34
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 8.37,
+    "Februari": 8.31,
+    "Maret": 8.29,
+    "April": 8.21,
+    "Mei": 8.21,
+    "Juni": 8.14,
+    "Juli": 8.21,
+    "Agustus": 8.22,
+    "September": 8.25,
+    "Oktober": 8.25,
+    "November": 8.31,
+    "Desember": 8.29
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.51,
+    "Februari": 8.73,
+    "Maret": 8.83,
+    "April": 8.85,
+    "Mei": 8.86,
+    "Juni": 8.88,
+    "Juli": 8.97,
+    "Agustus": 8.99,
+    "September": 8.96,
+    "Oktober": 8.95,
+    "November": 8.94,
+    "Desember": 8.93
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.92,
+    "Februari": 8.93,
+    "Maret": 8.94,
+    "April": 8.92,
+    "Mei": 8.96,
+    "Juni": 8.9,
+    "Juli": 8.86,
+    "Agustus": 8.83,
+    "September": 8.81,
+    "Oktober": 8.8,
+    "November": 8.74,
+    "Desember": 8.67
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.69,
+    "Februari": 8.8,
+    "Maret": 8.82,
+    "April": 8.83,
+    "Mei": 8.83,
+    "Juni": 8.81,
+    "Juli": 8.78,
+    "Agustus": 8.72,
+    "September": 8.6,
+    "Oktober": 8.39,
+    "November": 8.3,
+    "Desember": 8.12
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Modal Kerja",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.08,
+    "Februari": 8.09,
+    "Maret": 8.03,
+    "April": 7.96,
+    "Mei": 7.85,
+    "Juni": 7.95,
+    "Juli": 7.93,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 10.26,
+    "Februari": 10.22,
+    "Maret": 10.17,
+    "April": 10.02,
+    "Mei": 10.01,
+    "Juni": 10.06,
+    "Juli": 10.06,
+    "Agustus": 10.05,
+    "September": 10.07,
+    "Oktober": 10.06,
+    "November": 10.34,
+    "Desember": 10.34
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.13,
+    "Februari": 10.11,
+    "Maret": 10.11,
+    "April": 10.07,
+    "Mei": 10.04,
+    "Juni": 10.03,
+    "Juli": 10.02,
+    "Agustus": 9.96,
+    "September": 9.91,
+    "Oktober": 9.88,
+    "November": 9.83,
+    "Desember": 9.75
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 9.7,
+    "Februari": 9.66,
+    "Maret": 9.57,
+    "April": 9.26,
+    "Mei": 9.12,
+    "Juni": 9.12,
+    "Juli": 9.08,
+    "Agustus": 9.06,
+    "September": 8.97,
+    "Oktober": 8.95,
+    "November": 8.94,
+    "Desember": 8.87
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 8.82,
+    "Februari": 8.82,
+    "Maret": 8.77,
+    "April": 8.77,
+    "Mei": 8.73,
+    "Juni": 8.67,
+    "Juli": 8.63,
+    "Agustus": 8.6,
+    "September": 8.6,
+    "Oktober": 8.58,
+    "November": 8.54,
+    "Desember": 8.49
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 8.47,
+    "Februari": 8.55,
+    "Maret": 8.48,
+    "April": 8.5,
+    "Mei": 8.48,
+    "Juni": 8.45,
+    "Juli": 8.4,
+    "Agustus": 8.44,
+    "September": 8.43,
+    "Oktober": 8.52,
+    "November": 8.59,
+    "Desember": 8.72
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.86,
+    "Februari": 9.05,
+    "Maret": 9.2,
+    "April": 9.27,
+    "Mei": 9.28,
+    "Juni": 9.3,
+    "Juli": 9.38,
+    "Agustus": 9.38,
+    "September": 9.4,
+    "Oktober": 9.41,
+    "November": 9.41,
+    "Desember": 9.41
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 9.44,
+    "Februari": 9.46,
+    "Maret": 9.47,
+    "April": 9.47,
+    "Mei": 9.46,
+    "Juni": 9.45,
+    "Juli": 9.4,
+    "Agustus": 9.36,
+    "September": 9.29,
+    "Oktober": 9.21,
+    "November": 9.18,
+    "Desember": 9.21
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 9.22,
+    "Februari": 9.11,
+    "Maret": 9.09,
+    "April": 9.02,
+    "Mei": 9.02,
+    "Juni": 8.96,
+    "Juli": 8.92,
+    "Agustus": 8.89,
+    "September": 8.67,
+    "Oktober": 8.84,
+    "November": 8.69,
+    "Desember": 8.44
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Investasi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.32,
+    "Februari": 8.28,
+    "Maret": 8.21,
+    "April": 8.16,
+    "Mei": 8.07,
+    "Juni": 8.08,
+    "Juli": 8.16,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 12.35,
+    "Februari": 12.27,
+    "Maret": 12.13,
+    "April": 12.07,
+    "Mei": 12.01,
+    "Juni": 12,
+    "Juli": 11.92,
+    "Agustus": 11.46,
+    "September": 11.39,
+    "Oktober": 11.33,
+    "November": 11.28,
+    "Desember": 11.2
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 11.2,
+    "Februari": 11.17,
+    "Maret": 11.13,
+    "April": 11.12,
+    "Mei": 11.09,
+    "Juni": 11.09,
+    "Juli": 11.09,
+    "Agustus": 11.12,
+    "September": 11.11,
+    "Oktober": 11.09,
+    "November": 11.07,
+    "Desember": 11.44
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 11.04,
+    "Februari": 11.02,
+    "Maret": 10.99,
+    "April": 10.92,
+    "Mei": 10.78,
+    "Juni": 10.75,
+    "Juli": 10.73,
+    "Agustus": 10.7,
+    "September": 10.67,
+    "Oktober": 10.64,
+    "November": 10.59,
+    "Desember": 10.56
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 10.57,
+    "Februari": 10.54,
+    "Maret": 10.51,
+    "April": 10.49,
+    "Mei": 10.47,
+    "Juni": 10.37,
+    "Juli": 10.28,
+    "Agustus": 10.25,
+    "September": 10.22,
+    "Oktober": 10.18,
+    "November": 10.16,
+    "Desember": 10.14
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 9.7,
+    "Februari": 9.69,
+    "Maret": 9.65,
+    "April": 9.62,
+    "Mei": 9.58,
+    "Juni": 9.53,
+    "Juli": 9.5,
+    "Agustus": 9.46,
+    "September": 9.43,
+    "Oktober": 9.75,
+    "November": 9.69,
+    "Desember": 9.65
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 9.65,
+    "Februari": 9.63,
+    "Maret": 9.6,
+    "April": 9.59,
+    "Mei": 9.56,
+    "Juni": 9.52,
+    "Juli": 9.49,
+    "Agustus": 9.45,
+    "September": 9.41,
+    "Oktober": 9.35,
+    "November": 9.31,
+    "Desember": 9.27
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 9.24,
+    "Februari": 9.21,
+    "Maret": 9.13,
+    "April": 9.1,
+    "Mei": 9.07,
+    "Juni": 9.04,
+    "Juli": 8.99,
+    "Agustus": 8.98,
+    "September": 8.97,
+    "Oktober": 8.94,
+    "November": 9.11,
+    "Desember": 9.09
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 9.08,
+    "Februari": 9.06,
+    "Maret": 9.04,
+    "April": 9.04,
+    "Mei": 9.01,
+    "Juni": 8.98,
+    "Juli": 8.96,
+    "Agustus": 8.94,
+    "September": 8.92,
+    "Oktober": 8.9,
+    "November": 8.87,
+    "Desember": 8.97
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Persero - Konsumsi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.96,
+    "Februari": 8.95,
+    "Maret": 8.93,
+    "April": 8.91,
+    "Mei": 9.03,
+    "Juni": 9.06,
+    "Juli": 9.04,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 11.6,
+    "Februari": 11.56,
+    "Maret": 11.54,
+    "April": 11.48,
+    "Mei": 11.5,
+    "Juni": 11.52,
+    "Juli": 11.55,
+    "Agustus": 11.46,
+    "September": 11.39,
+    "Oktober": 11.52,
+    "November": 11.54,
+    "Desember": 11.23
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 11.19,
+    "Februari": 11.23,
+    "Maret": 11.12,
+    "April": 11.15,
+    "Mei": 11.23,
+    "Juni": 11.23,
+    "Juli": 11.29,
+    "Agustus": 11.27,
+    "September": 11.27,
+    "Oktober": 11.24,
+    "November": 11.14,
+    "Desember": 10.8
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 10.76,
+    "Februari": 10.77,
+    "Maret": 10.75,
+    "April": 10.75,
+    "Mei": 10.64,
+    "Juni": 10.58,
+    "Juli": 10.55,
+    "Agustus": 10.54,
+    "September": 10.48,
+    "Oktober": 10.44,
+    "November": 10.41,
+    "Desember": 10.22
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 10.18,
+    "Februari": 10.2,
+    "Maret": 10.1,
+    "April": 10.06,
+    "Mei": 10.02,
+    "Juni": 9.86,
+    "Juli": 9.9,
+    "Agustus": 9.87,
+    "September": 9.82,
+    "Oktober": 9.82,
+    "November": 9.74,
+    "Desember": 9.45
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 9.14,
+    "Februari": 9.13,
+    "Maret": 9.27,
+    "April": 9.25,
+    "Mei": 9.15,
+    "Juni": 9.04,
+    "Juli": 9.14,
+    "Agustus": 9.03,
+    "September": 8.97,
+    "Oktober": 8.98,
+    "November": 8.96,
+    "Desember": 8.85
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.79,
+    "Februari": 8.9,
+    "Maret": 8.93,
+    "April": 8.94,
+    "Mei": 9.11,
+    "Juni": 9.07,
+    "Juli": 9.13,
+    "Agustus": 9.16,
+    "September": 11.15,
+    "Oktober": 11.59,
+    "November": 9.19,
+    "Desember": 9.02
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.97,
+    "Februari": 9.01,
+    "Maret": 8.99,
+    "April": 9.01,
+    "Mei": 9.03,
+    "Juni": 9.01,
+    "Juli": 9.02,
+    "Agustus": 9.06,
+    "September": 11.83,
+    "Oktober": 9.05,
+    "November": 9.03,
+    "Desember": 8.9
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.81,
+    "Februari": 8.81,
+    "Maret": 8.81,
+    "April": 8.85,
+    "Mei": 8.86,
+    "Juni": 8.84,
+    "Juli": 8.78,
+    "Agustus": 8.82,
+    "September": 8.84,
+    "Oktober": 8.66,
+    "November": 8.66,
+    "Desember": 8.32
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Modal Kerja",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.27,
+    "Februari": 8.21,
+    "Maret": 8.14,
+    "April": 8.23,
+    "Mei": 8.34,
+    "Juni": 8.33,
+    "Juli": 8.37,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 11.58,
+    "Februari": 11.23,
+    "Maret": 11.32,
+    "April": 11.3,
+    "Mei": 11.25,
+    "Juni": 11.25,
+    "Juli": 11.21,
+    "Agustus": 11.19,
+    "September": 11.17,
+    "Oktober": 11.21,
+    "November": 11.17,
+    "Desember": 11.05
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 11,
+    "Februari": 10.99,
+    "Maret": 11.06,
+    "April": 11.1,
+    "Mei": 11.07,
+    "Juni": 11.05,
+    "Juli": 10.94,
+    "Agustus": 11,
+    "September": 10.91,
+    "Oktober": 11.15,
+    "November": 11.09,
+    "Desember": 11.04
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 11.02,
+    "Februari": 10.98,
+    "Maret": 10.9,
+    "April": 10.87,
+    "Mei": 10.73,
+    "Juni": 10.66,
+    "Juli": 10.62,
+    "Agustus": 10.57,
+    "September": 10.36,
+    "Oktober": 10.27,
+    "November": 10.29,
+    "Desember": 10.4
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 10.1,
+    "Februari": 10.08,
+    "Maret": 9.91,
+    "April": 9.87,
+    "Mei": 9.81,
+    "Juni": 9.77,
+    "Juli": 9.72,
+    "Agustus": 9.67,
+    "September": 9.6,
+    "Oktober": 9.53,
+    "November": 9.49,
+    "Desember": 9.35
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 9.58,
+    "Februari": 9.48,
+    "Maret": 9.75,
+    "April": 9.54,
+    "Mei": 9.46,
+    "Juni": 9.36,
+    "Juli": 9.25,
+    "Agustus": 9.11,
+    "September": 9.2,
+    "Oktober": 9.12,
+    "November": 9.05,
+    "Desember": 9.16
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 9.2,
+    "Februari": 9.15,
+    "Maret": 9.09,
+    "April": 9.14,
+    "Mei": 9.14,
+    "Juni": 9.11,
+    "Juli": 9.14,
+    "Agustus": 9.12,
+    "September": 9.1,
+    "Oktober": 9.13,
+    "November": 9.1,
+    "Desember": 9.06
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 9.06,
+    "Februari": 9.12,
+    "Maret": 9.1,
+    "April": 9.1,
+    "Mei": 9.09,
+    "Juni": 9.08,
+    "Juli": 9.1,
+    "Agustus": 9.08,
+    "September": 8.92,
+    "Oktober": 8.91,
+    "November": 8.9,
+    "Desember": 8.89
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.91,
+    "Februari": 8.93,
+    "Maret": 8.93,
+    "April": 8.88,
+    "Mei": 8.89,
+    "Juni": 8.88,
+    "Juli": 8.86,
+    "Agustus": 8.84,
+    "September": 8.83,
+    "Oktober": 8.78,
+    "November": 8.79,
+    "Desember": 8.75
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Investasi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.73,
+    "Februari": 8.72,
+    "Maret": 8.81,
+    "April": 8.79,
+    "Mei": 8.75,
+    "Juni": 8.79,
+    "Juli": 8.73,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 12.77,
+    "Februari": 12.75,
+    "Maret": 12.67,
+    "April": 12.63,
+    "Mei": 12.59,
+    "Juni": 12.56,
+    "Juli": 12.53,
+    "Agustus": 12.48,
+    "September": 12.42,
+    "Oktober": 12.36,
+    "November": 12.3,
+    "Desember": 12.21
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 12.19,
+    "Februari": 12.15,
+    "Maret": 12.04,
+    "April": 12.06,
+    "Mei": 12.01,
+    "Juni": 11.98,
+    "Juli": 11.95,
+    "Agustus": 11.91,
+    "September": 11.86,
+    "Oktober": 11.83,
+    "November": 11.8,
+    "Desember": 11.75
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 11.73,
+    "Februari": 11.72,
+    "Maret": 11.69,
+    "April": 11.67,
+    "Mei": 11.72,
+    "Juni": 11.69,
+    "Juli": 11.68,
+    "Agustus": 11.66,
+    "September": 11.61,
+    "Oktober": 11.58,
+    "November": 11.52,
+    "Desember": 11.48
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 11.46,
+    "Februari": 11.42,
+    "Maret": 11.39,
+    "April": 11.37,
+    "Mei": 11.34,
+    "Juni": 11.3,
+    "Juli": 11.27,
+    "Agustus": 11.24,
+    "September": 11.2,
+    "Oktober": 11.16,
+    "November": 11.14,
+    "Desember": 11.09
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 10.78,
+    "Februari": 10.74,
+    "Maret": 11.01,
+    "April": 10.97,
+    "Mei": 10.94,
+    "Juni": 10.88,
+    "Juli": 10.85,
+    "Agustus": 10.8,
+    "September": 10.76,
+    "Oktober": 10.73,
+    "November": 10.69,
+    "Desember": 10.64
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 10.63,
+    "Februari": 10.61,
+    "Maret": 10.58,
+    "April": 10.56,
+    "Mei": 10.55,
+    "Juni": 10.52,
+    "Juli": 10.5,
+    "Agustus": 10.49,
+    "September": 10.47,
+    "Oktober": 10.45,
+    "November": 10.43,
+    "Desember": 10.4
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 10.41,
+    "Februari": 10.41,
+    "Maret": 10.39,
+    "April": 10.38,
+    "Mei": 10.38,
+    "Juni": 10.38,
+    "Juli": 10.38,
+    "Agustus": 10.37,
+    "September": 10.38,
+    "Oktober": 10.38,
+    "November": 10.37,
+    "Desember": 10.37
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 10.37,
+    "Februari": 10.37,
+    "Maret": 10.36,
+    "April": 10.37,
+    "Mei": 10.38,
+    "Juni": 10.38,
+    "Juli": 10.38,
+    "Agustus": 10.38,
+    "September": 10.37,
+    "Oktober": 10.37,
+    "November": 10.36,
+    "Desember": 10.35
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Pemerintah Daerah - Konsumsi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 10.36,
+    "Februari": 10.35,
+    "Maret": 10.35,
+    "April": 10.35,
+    "Mei": 10.34,
+    "Juni": 10.36,
+    "Juli": 10.33,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 11.12,
+    "Februari": 11.06,
+    "Maret": 10.99,
+    "April": 10.94,
+    "Mei": 10.9,
+    "Juni": 10.88,
+    "Juli": 11,
+    "Agustus": 10.95,
+    "September": 11.24,
+    "Oktober": 10.97,
+    "November": 11.02,
+    "Desember": 10.95
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.99,
+    "Februari": 10.98,
+    "Maret": 10.94,
+    "April": 10.94,
+    "Mei": 10.91,
+    "Juni": 10.9,
+    "Juli": 10.89,
+    "Agustus": 10.86,
+    "September": 10.85,
+    "Oktober": 10.76,
+    "November": 10.75,
+    "Desember": 10.54
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 10.59,
+    "Februari": 10.48,
+    "Maret": 10.36,
+    "April": 10.14,
+    "Mei": 10.04,
+    "Juni": 9.85,
+    "Juli": 9.87,
+    "Agustus": 9.85,
+    "September": 9.87,
+    "Oktober": 9.83,
+    "November": 9.73,
+    "Desember": 9.7
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 9.75,
+    "Februari": 9.71,
+    "Maret": 9.63,
+    "April": 9.58,
+    "Mei": 9.53,
+    "Juni": 9.59,
+    "Juli": 9.57,
+    "Agustus": 9.45,
+    "September": 9.34,
+    "Oktober": 9.3,
+    "November": 9.26,
+    "Desember": 9.13
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 9.27,
+    "Februari": 9.23,
+    "Maret": 9.18,
+    "April": 9.05,
+    "Mei": 9.05,
+    "Juni": 8.98,
+    "Juli": 8.96,
+    "Agustus": 8.91,
+    "September": 8.94,
+    "Oktober": 9.19,
+    "November": 9.15,
+    "Desember": 9.17
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 9.27,
+    "Februari": 9.31,
+    "Maret": 9.32,
+    "April": 9.25,
+    "Mei": 9.23,
+    "Juni": 9.21,
+    "Juli": 9.18,
+    "Agustus": 9.14,
+    "September": 9.09,
+    "Oktober": 9.12,
+    "November": 9.08,
+    "Desember": 9.01
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 9.06,
+    "Februari": 8.98,
+    "Maret": 8.92,
+    "April": 8.97,
+    "Mei": 8.96,
+    "Juni": 8.93,
+    "Juli": 8.93,
+    "Agustus": 8.9,
+    "September": 8.84,
+    "Oktober": 8.8,
+    "November": 8.78,
+    "Desember": 8.77
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.65,
+    "Februari": 8.62,
+    "Maret": 8.6,
+    "April": 8.58,
+    "Mei": 8.55,
+    "Juni": 8.52,
+    "Juli": 8.53,
+    "Agustus": 8.48,
+    "September": 8.4,
+    "Oktober": 8.31,
+    "November": 8.29,
+    "Desember": 8.16
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Modal Kerja",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.18,
+    "Februari": 8.15,
+    "Maret": 8.08,
+    "April": 8.05,
+    "Mei": 8.13,
+    "Juni": 8.24,
+    "Juli": 8.41,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 10.81,
+    "Februari": 10.72,
+    "Maret": 10.69,
+    "April": 10.65,
+    "Mei": 10.63,
+    "Juni": 10.67,
+    "Juli": 10.64,
+    "Agustus": 10.66,
+    "September": 11.02,
+    "Oktober": 10.67,
+    "November": 10.69,
+    "Desember": 10.67
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.6,
+    "Februari": 10.56,
+    "Maret": 10.52,
+    "April": 10.49,
+    "Mei": 10.45,
+    "Juni": 10.41,
+    "Juli": 10.4,
+    "Agustus": 10.34,
+    "September": 10.3,
+    "Oktober": 10.16,
+    "November": 10.17,
+    "Desember": 10.02
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 10.02,
+    "Februari": 9.98,
+    "Maret": 9.81,
+    "April": 9.57,
+    "Mei": 9.43,
+    "Juni": 9.42,
+    "Juli": 9.28,
+    "Agustus": 9.2,
+    "September": 9.11,
+    "Oktober": 9.03,
+    "November": 8.93,
+    "Desember": 8.81
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 8.79,
+    "Februari": 8.67,
+    "Maret": 8.66,
+    "April": 8.55,
+    "Mei": 8.51,
+    "Juni": 8.72,
+    "Juli": 8.61,
+    "Agustus": 8.55,
+    "September": 8.5,
+    "Oktober": 8.42,
+    "November": 8.35,
+    "Desember": 8.22
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 8.25,
+    "Februari": 8.21,
+    "Maret": 8.14,
+    "April": 8.08,
+    "Mei": 8.02,
+    "Juni": 7.87,
+    "Juli": 7.87,
+    "Agustus": 7.88,
+    "September": 7.92,
+    "Oktober": 8,
+    "November": 8.09,
+    "Desember": 8.28
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.35,
+    "Februari": 8.39,
+    "Maret": 8.42,
+    "April": 8.43,
+    "Mei": 8.44,
+    "Juni": 8.37,
+    "Juli": 8.33,
+    "Agustus": 8.3,
+    "September": 8.27,
+    "Oktober": 8.24,
+    "November": 8.23,
+    "Desember": 8.23
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.26,
+    "Februari": 8.27,
+    "Maret": 8.23,
+    "April": 8.23,
+    "Mei": 8.26,
+    "Juni": 8.27,
+    "Juli": 8.26,
+    "Agustus": 8.26,
+    "September": 8.21,
+    "Oktober": 8.19,
+    "November": 8.16,
+    "Desember": 8.22
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.1,
+    "Februari": 8.1,
+    "Maret": 8.06,
+    "April": 8.06,
+    "Mei": 8.02,
+    "Juni": 7.97,
+    "Juli": 7.93,
+    "Agustus": 7.88,
+    "September": 7.74,
+    "Oktober": 7.67,
+    "November": 7.62,
+    "Desember": 7.52
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Investasi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 7.45,
+    "Februari": 7.41,
+    "Maret": 7.41,
+    "April": 7.39,
+    "Mei": 7.45,
+    "Juni": 7.65,
+    "Juli": 7.77,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 12.13,
+    "Februari": 12.06,
+    "Maret": 11.95,
+    "April": 11.9,
+    "Mei": 11.84,
+    "Juni": 11.79,
+    "Juli": 11.63,
+    "Agustus": 11.56,
+    "September": 11.52,
+    "Oktober": 11.41,
+    "November": 11.44,
+    "Desember": 11.41
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 11.35,
+    "Februari": 11.32,
+    "Maret": 11.32,
+    "April": 11.3,
+    "Mei": 11.26,
+    "Juni": 11.26,
+    "Juli": 11.24,
+    "Agustus": 11.22,
+    "September": 11.22,
+    "Oktober": 11.18,
+    "November": 11.18,
+    "Desember": 11.1
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 11.1,
+    "Februari": 11.06,
+    "Maret": 11.01,
+    "April": 10.91,
+    "Mei": 10.86,
+    "Juni": 10.83,
+    "Juli": 10.78,
+    "Agustus": 10.77,
+    "September": 10.75,
+    "Oktober": 10.69,
+    "November": 10.66,
+    "Desember": 10.65
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 10.61,
+    "Februari": 10.57,
+    "Maret": 10.57,
+    "April": 10.53,
+    "Mei": 10.47,
+    "Juni": 10.47,
+    "Juli": 10.41,
+    "Agustus": 10.38,
+    "September": 10.33,
+    "Oktober": 10.29,
+    "November": 10.19,
+    "Desember": 10.13
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 10.25,
+    "Februari": 10.23,
+    "Maret": 10.22,
+    "April": 10.27,
+    "Mei": 10.31,
+    "Juni": 10.32,
+    "Juli": 10.31,
+    "Agustus": 10.35,
+    "September": 10.41,
+    "Oktober": 10.5,
+    "November": 10.52,
+    "Desember": 10.54
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 10.58,
+    "Februari": 10.69,
+    "Maret": 10.72,
+    "April": 10.69,
+    "Mei": 10.67,
+    "Juni": 10.55,
+    "Juli": 10.56,
+    "Agustus": 10.57,
+    "September": 10.57,
+    "Oktober": 10.59,
+    "November": 10.75,
+    "Desember": 10.69
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 10.96,
+    "Februari": 10.94,
+    "Maret": 10.88,
+    "April": 10.87,
+    "Mei": 10.88,
+    "Juni": 10.94,
+    "Juli": 10.95,
+    "Agustus": 10.98,
+    "September": 10.97,
+    "Oktober": 10.95,
+    "November": 11.41,
+    "Desember": 11.44
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 11.83,
+    "Februari": 11.86,
+    "Maret": 11.84,
+    "April": 11.93,
+    "Mei": 11.99,
+    "Juni": 12.04,
+    "Juli": 12.11,
+    "Agustus": 12.2,
+    "September": 12.26,
+    "Oktober": 12.29,
+    "November": 12.34,
+    "Desember": 11.99
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Swasta Nasional - Konsumsi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 12.07,
+    "Februari": 12.12,
+    "Maret": 12.11,
+    "April": 12.12,
+    "Mei": 12.83,
+    "Juni": 13.15,
+    "Juli": 13.34,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 7.83,
+    "Februari": 7.77,
+    "Maret": 7.71,
+    "April": 7.77,
+    "Mei": 8.03,
+    "Juni": 8.29,
+    "Juli": 8.47,
+    "Agustus": 8.61,
+    "September": 8.65,
+    "Oktober": 8.79,
+    "November": 8.98,
+    "Desember": 8.04
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 9.07,
+    "Februari": 9.07,
+    "Maret": 9.03,
+    "April": 8.96,
+    "Mei": 8.84,
+    "Juni": 8.8,
+    "Juli": 8.67,
+    "Agustus": 8.57,
+    "September": 8.27,
+    "Oktober": 8.16,
+    "November": 8.05,
+    "Desember": 7.83
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 7.79,
+    "Februari": 7.72,
+    "Maret": 7.57,
+    "April": 7.64,
+    "Mei": 7.59,
+    "Juni": 7.51,
+    "Juli": 7.44,
+    "Agustus": 7.3,
+    "September": 7.17,
+    "Oktober": 7.03,
+    "November": 6.95,
+    "Desember": 6.76
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 6.74,
+    "Februari": 6.67,
+    "Maret": 6.54,
+    "April": 6.4,
+    "Mei": 6.28,
+    "Juni": 6.19,
+    "Juli": 6.18,
+    "Agustus": 6.14,
+    "September": 6.04,
+    "Oktober": 6,
+    "November": 5.87,
+    "Desember": 5.69
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 5.67,
+    "Februari": 5.69,
+    "Maret": 5.74,
+    "April": 5.64,
+    "Mei": 5.54,
+    "Juni": 5.52,
+    "Juli": 5.47,
+    "Agustus": 5.68,
+    "September": 5.87,
+    "Oktober": 6.22,
+    "November": 6.45,
+    "Desember": 6.55
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 6.71,
+    "Februari": 6.85,
+    "Maret": 6.9,
+    "April": 6.89,
+    "Mei": 6.92,
+    "Juni": 6.9,
+    "Juli": 6.93,
+    "Agustus": 7.06,
+    "September": 7.06,
+    "Oktober": 7.08,
+    "November": 6.94,
+    "Desember": 6.92
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 6.9,
+    "Februari": 6.9,
+    "Maret": 6.94,
+    "April": 7,
+    "Mei": 7.09,
+    "Juni": 7.11,
+    "Juli": 7.11,
+    "Agustus": 7.12,
+    "September": 7.05,
+    "Oktober": 6.9,
+    "November": 6.88,
+    "Desember": 6.73
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 6.65,
+    "Februari": 6.74,
+    "Maret": 6.67,
+    "April": 6.58,
+    "Mei": 6.41,
+    "Juni": 6.74,
+    "Juli": 6.85,
+    "Agustus": 6.45,
+    "September": 6.07,
+    "Oktober": 5.84,
+    "November": 5.69,
+    "Desember": 5.58
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Modal Kerja",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 5.57,
+    "Februari": 5.59,
+    "Maret": 5.67,
+    "April": 5.77,
+    "Mei": 6.03,
+    "Juni": 6.54,
+    "Juli": 6.71,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 8.75,
+    "Februari": 8.67,
+    "Maret": 8.58,
+    "April": 8.64,
+    "Mei": 8.87,
+    "Juni": 9.31,
+    "Juli": 9.59,
+    "Agustus": 9.66,
+    "September": 9.71,
+    "Oktober": 9.78,
+    "November": 9.85,
+    "Desember": 7.56
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 9.94,
+    "Februari": 9.97,
+    "Maret": 9.85,
+    "April": 9.81,
+    "Mei": 9.77,
+    "Juni": 9.75,
+    "Juli": 9.57,
+    "Agustus": 9.44,
+    "September": 9.23,
+    "Oktober": 9.16,
+    "November": 9.04,
+    "Desember": 8.83
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 8.79,
+    "Februari": 8.76,
+    "Maret": 8.52,
+    "April": 8.44,
+    "Mei": 8.39,
+    "Juni": 8.24,
+    "Juli": 8.08,
+    "Agustus": 8,
+    "September": 7.58,
+    "Oktober": 7.51,
+    "November": 7.43,
+    "Desember": 7.24
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 7.18,
+    "Februari": 7.1,
+    "Maret": 6.75,
+    "April": 6.75,
+    "Mei": 6.69,
+    "Juni": 6.74,
+    "Juli": 6.76,
+    "Agustus": 6.58,
+    "September": 6.46,
+    "Oktober": 6.27,
+    "November": 6.3,
+    "Desember": 6.2
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 6.23,
+    "Februari": 6.15,
+    "Maret": 6.14,
+    "April": 6.07,
+    "Mei": 5.99,
+    "Juni": 5.94,
+    "Juli": 5.95,
+    "Agustus": 6.12,
+    "September": 6.47,
+    "Oktober": 6.82,
+    "November": 7.32,
+    "Desember": 7.91
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.08,
+    "Februari": 8.2,
+    "Maret": 8.19,
+    "April": 8.26,
+    "Mei": 8.26,
+    "Juni": 8.25,
+    "Juli": 8.12,
+    "Agustus": 8.13,
+    "September": 8.17,
+    "Oktober": 8.32,
+    "November": 8.41,
+    "Desember": 8.51
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.47,
+    "Februari": 8.48,
+    "Maret": 8.42,
+    "April": 8.42,
+    "Mei": 8.4,
+    "Juni": 8.43,
+    "Juli": 8.34,
+    "Agustus": 8.42,
+    "September": 8.36,
+    "Oktober": 8.27,
+    "November": 8.22,
+    "Desember": 7.94
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.47,
+    "Februari": 8.4,
+    "Maret": 8.38,
+    "April": 8.38,
+    "Mei": 8.38,
+    "Juni": 8.08,
+    "Juli": 8.07,
+    "Agustus": 7.89,
+    "September": 7.44,
+    "Oktober": 7.35,
+    "November": 7.35,
+    "Desember": 7.11
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Investasi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 7.1,
+    "Februari": 7.09,
+    "Maret": 6.97,
+    "April": 6.95,
+    "Mei": 7.03,
+    "Juni": 7.9,
+    "Juli": 8.1,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 24.96,
+    "Februari": 25.07,
+    "Maret": 24.94,
+    "April": 24.62,
+    "Mei": 24.5,
+    "Juni": 24.17,
+    "Juli": 24.12,
+    "Agustus": 24.12,
+    "September": 24.01,
+    "Oktober": 24,
+    "November": 23.96,
+    "Desember": 23.87
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 24.3,
+    "Februari": 24.23,
+    "Maret": 24.07,
+    "April": 23.94,
+    "Mei": 23.33,
+    "Juni": 23.3,
+    "Juli": 23.34,
+    "Agustus": 23.2,
+    "September": 23.24,
+    "Oktober": 23.21,
+    "November": 23.32,
+    "Desember": 22.91
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 22.85,
+    "Februari": 22.87,
+    "Maret": 22.79,
+    "April": 22.17,
+    "Mei": 22.24,
+    "Juni": 22.39,
+    "Juli": 22.3,
+    "Agustus": 22.24,
+    "September": 22.16,
+    "Oktober": 22.09,
+    "November": 22.05,
+    "Desember": 22.07
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 21.5,
+    "Februari": 22.84,
+    "Maret": 22.8,
+    "April": 22.68,
+    "Mei": 23.94,
+    "Juni": 23.76,
+    "Juli": 23.02,
+    "Agustus": 23.03,
+    "September": 22.98,
+    "Oktober": 22.85,
+    "November": 22.69,
+    "Desember": 23.23
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 23.08,
+    "Februari": 23.2,
+    "Maret": 23.17,
+    "April": 23.33,
+    "Mei": 23.33,
+    "Juni": 23.22,
+    "Juli": 23.36,
+    "Agustus": 22.83,
+    "September": 23.67,
+    "Oktober": 23.84,
+    "November": 23.85,
+    "Desember": 23.12
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 23.72,
+    "Februari": 22.82,
+    "Maret": 23.06,
+    "April": 23.17,
+    "Mei": 23.62,
+    "Juni": 23.37,
+    "Juli": 22.82,
+    "Agustus": 23.01,
+    "September": 23.22,
+    "Oktober": 23.31,
+    "November": 21.63,
+    "Desember": 22.14
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 22.38,
+    "Februari": 22.58,
+    "Maret": 22.34,
+    "April": 22.63,
+    "Mei": 22.83,
+    "Juni": 22.89,
+    "Juli": 23.29,
+    "Agustus": 22.41,
+    "September": 28.67,
+    "Oktober": 28.98,
+    "November": 29.25,
+    "Desember": 29.44
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 43.82,
+    "Februari": 41.78,
+    "Maret": 41.23,
+    "April": 41.17,
+    "Mei": 41.3,
+    "Juni": 41.98,
+    "Juli": 41.51,
+    "Agustus": 41.19,
+    "September": 41.05,
+    "Oktober": 40.59,
+    "November": 39.8,
+    "Desember": 38.69
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Asing dan Bank Campuran - Konsumsi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 37.88,
+    "Februari": 36.75,
+    "Maret": 36.52,
+    "April": 36.51,
+    "Mei": 36.75,
+    "Juni": 37.45,
+    "Juli": 37.57,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 10.72,
+    "Februari": 10.69,
+    "Maret": 10.59,
+    "April": 10.53,
+    "Mei": 10.51,
+    "Juni": 10.49,
+    "Juli": 10.55,
+    "Agustus": 10.48,
+    "September": 10.59,
+    "Oktober": 10.47,
+    "November": 10.48,
+    "Desember": 10.34
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.52,
+    "Februari": 10.55,
+    "Maret": 10.51,
+    "April": 10.5,
+    "Mei": 10.43,
+    "Juni": 10.39,
+    "Juli": 10.39,
+    "Agustus": 10.36,
+    "September": 10.29,
+    "Oktober": 10.22,
+    "November": 10.2,
+    "Desember": 10.03
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 10.08,
+    "Februari": 10.01,
+    "Maret": 9.91,
+    "April": 9.68,
+    "Mei": 9.55,
+    "Juni": 9.43,
+    "Juli": 9.41,
+    "Agustus": 9.38,
+    "September": 9.37,
+    "Oktober": 9.32,
+    "November": 9.26,
+    "Desember": 9.15
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 9.21,
+    "Februari": 9.17,
+    "Maret": 9.06,
+    "April": 9.03,
+    "Mei": 8.96,
+    "Juni": 8.96,
+    "Juli": 8.94,
+    "Agustus": 8.87,
+    "September": 8.81,
+    "Oktober": 8.75,
+    "November": 8.72,
+    "Desember": 8.59
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 8.62,
+    "Februari": 8.62,
+    "Maret": 8.59,
+    "April": 8.49,
+    "Mei": 8.48,
+    "Juni": 8.4,
+    "Juli": 8.42,
+    "Agustus": 8.42,
+    "September": 8.46,
+    "Oktober": 8.58,
+    "November": 8.6,
+    "Desember": 8.6
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.75,
+    "Februari": 8.89,
+    "Maret": 8.95,
+    "April": 8.92,
+    "Mei": 8.93,
+    "Juni": 8.93,
+    "Juli": 8.95,
+    "Agustus": 8.96,
+    "September": 9.02,
+    "Oktober": 9.05,
+    "November": 8.91,
+    "Desember": 8.86
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.87,
+    "Februari": 8.84,
+    "Maret": 8.83,
+    "April": 8.85,
+    "Mei": 8.86,
+    "Juni": 8.82,
+    "Juli": 8.81,
+    "Agustus": 8.78,
+    "September": 8.87,
+    "Oktober": 8.72,
+    "November": 8.68,
+    "Desember": 8.62
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.62,
+    "Februari": 8.67,
+    "Maret": 8.66,
+    "April": 8.66,
+    "Mei": 8.64,
+    "Juni": 8.62,
+    "Juli": 8.61,
+    "Agustus": 8.55,
+    "September": 8.45,
+    "Oktober": 8.3,
+    "November": 8.24,
+    "Desember": 8.08
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Modal Kerja",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 8.06,
+    "Februari": 8.05,
+    "Maret": 8,
+    "April": 7.96,
+    "Mei": 7.95,
+    "Juni": 8.07,
+    "Juli": 8.14,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 10.51,
+    "Februari": 10.43,
+    "Maret": 10.38,
+    "April": 10.3,
+    "Mei": 10.29,
+    "Juni": 10.35,
+    "Juli": 10.36,
+    "Agustus": 10.37,
+    "September": 10.54,
+    "Oktober": 10.38,
+    "November": 10.51,
+    "Desember": 10.38
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 10.38,
+    "Februari": 10.36,
+    "Maret": 10.34,
+    "April": 10.31,
+    "Mei": 10.26,
+    "Juni": 10.24,
+    "Juli": 10.22,
+    "Agustus": 10.16,
+    "September": 10.11,
+    "Oktober": 10.04,
+    "November": 10.02,
+    "Desember": 9.9
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 9.87,
+    "Februari": 9.83,
+    "Maret": 9.7,
+    "April": 9.45,
+    "Mei": 9.32,
+    "Juni": 9.3,
+    "Juli": 9.21,
+    "Agustus": 9.16,
+    "September": 9.06,
+    "Oktober": 9.01,
+    "November": 8.98,
+    "Desember": 8.88
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 8.83,
+    "Februari": 8.77,
+    "Maret": 8.73,
+    "April": 8.68,
+    "Mei": 8.64,
+    "Juni": 8.7,
+    "Juli": 8.63,
+    "Agustus": 8.58,
+    "September": 8.54,
+    "Oktober": 8.52,
+    "November": 8.44,
+    "Desember": 8.35
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 8.36,
+    "Februari": 8.38,
+    "Maret": 8.32,
+    "April": 8.29,
+    "Mei": 8.25,
+    "Juni": 8.16,
+    "Juli": 8.13,
+    "Agustus": 8.15,
+    "September": 8.18,
+    "Oktober": 8.26,
+    "November": 8.34,
+    "Desember": 8.51
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 8.62,
+    "Februari": 8.72,
+    "Maret": 8.8,
+    "April": 8.84,
+    "Mei": 8.85,
+    "Juni": 8.82,
+    "Juli": 8.84,
+    "Agustus": 8.83,
+    "September": 8.82,
+    "Oktober": 8.82,
+    "November": 8.82,
+    "Desember": 8.81
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 8.84,
+    "Februari": 8.86,
+    "Maret": 8.85,
+    "April": 8.85,
+    "Mei": 8.85,
+    "Juni": 8.86,
+    "Juli": 8.82,
+    "Agustus": 8.81,
+    "September": 8.75,
+    "Oktober": 8.71,
+    "November": 8.69,
+    "Desember": 8.71
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 8.66,
+    "Februari": 8.62,
+    "Maret": 8.58,
+    "April": 8.56,
+    "Mei": 8.54,
+    "Juni": 8.49,
+    "Juli": 8.46,
+    "Agustus": 8.42,
+    "September": 8.25,
+    "Oktober": 8.32,
+    "November": 8.22,
+    "Desember": 8.06
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Investasi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 7.97,
+    "Februari": 7.93,
+    "Maret": 7.9,
+    "April": 7.86,
+    "Mei": 7.87,
+    "Juni": 7.95,
+    "Juli": 8.04,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2018,
+   "bulan": {
+    "Januari": 12.64,
+    "Februari": 12.6,
+    "Maret": 12.48,
+    "April": 12.4,
+    "Mei": 12.34,
+    "Juni": 12.3,
+    "Juli": 12.2,
+    "Agustus": 11.96,
+    "September": 11.9,
+    "Oktober": 11.83,
+    "November": 11.8,
+    "Desember": 11.73
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2019,
+   "bulan": {
+    "Januari": 11.72,
+    "Februari": 11.68,
+    "Maret": 11.64,
+    "April": 11.62,
+    "Mei": 11.57,
+    "Juni": 11.57,
+    "Juli": 11.55,
+    "Agustus": 11.55,
+    "September": 11.53,
+    "Oktober": 11.51,
+    "November": 11.49,
+    "Desember": 11.62
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2020,
+   "bulan": {
+    "Januari": 11.43,
+    "Februari": 11.41,
+    "Maret": 11.37,
+    "April": 11.29,
+    "Mei": 11.22,
+    "Juni": 11.2,
+    "Juli": 11.16,
+    "Agustus": 11.13,
+    "September": 11.1,
+    "Oktober": 11.05,
+    "November": 11.01,
+    "Desember": 10.97
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2021,
+   "bulan": {
+    "Januari": 10.95,
+    "Februari": 10.94,
+    "Maret": 10.91,
+    "April": 10.87,
+    "Mei": 10.87,
+    "Juni": 10.81,
+    "Juli": 10.73,
+    "Agustus": 10.69,
+    "September": 10.65,
+    "Oktober": 10.61,
+    "November": 10.56,
+    "Desember": 10.53
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2022,
+   "bulan": {
+    "Januari": 10.3,
+    "Februari": 10.28,
+    "Maret": 10.32,
+    "April": 10.31,
+    "Mei": 10.31,
+    "Juni": 10.28,
+    "Juli": 10.26,
+    "Agustus": 10.24,
+    "September": 10.24,
+    "Oktober": 10.41,
+    "November": 10.38,
+    "Desember": 10.36
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2023,
+   "bulan": {
+    "Januari": 10.38,
+    "Februari": 10.39,
+    "Maret": 10.39,
+    "April": 10.37,
+    "Mei": 10.35,
+    "Juni": 10.29,
+    "Juli": 10.27,
+    "Agustus": 10.25,
+    "September": 10.23,
+    "Oktober": 10.21,
+    "November": 10.17,
+    "Desember": 10.13
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2024,
+   "bulan": {
+    "Januari": 10.21,
+    "Februari": 10.19,
+    "Maret": 10.13,
+    "April": 10.12,
+    "Mei": 10.12,
+    "Juni": 10.12,
+    "Juli": 10.11,
+    "Agustus": 10.1,
+    "September": 10.13,
+    "Oktober": 10.11,
+    "November": 10.36,
+    "Desember": 10.36
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2025,
+   "bulan": {
+    "Januari": 10.41,
+    "Februari": 10.4,
+    "Maret": 10.39,
+    "April": 10.42,
+    "Mei": 10.44,
+    "Juni": 10.45,
+    "Juli": 10.47,
+    "Agustus": 10.49,
+    "September": 10.51,
+    "Oktober": 10.51,
+    "November": 10.52,
+    "Desember": 10.5
+   }
+  },
+  {
+   "Kelompok Bank": "Bank Umum - Konsumsi",
+   "tahun": 2026,
+   "bulan": {
+    "Januari": 10.53,
+    "Februari": 10.55,
+    "Maret": 10.53,
+    "April": 10.53,
+    "Mei": 10.54,
+    "Juni": 10.65,
+    "Juli": 10.69,
+    "Agustus": null,
+    "September": null,
+    "Oktober": null,
+    "November": null,
+    "Desember": null
+   }
+  }
+ ]
+}
