@@ -1,6 +1,8 @@
 "use client";
 
 import { useMemo, useState, type ReactNode } from "react";
+import Link from "next/link";
+import { ArrowDown, Database, Sparkles } from "lucide-react";
 import type { DashboardModel } from "@/lib/analytics";
 import { fmtNum, fmtPeriod, fmtSigned } from "@/lib/format";
 import { ChartCard, LegendItem, LegendSwatch } from "./ChartCard";
@@ -35,16 +37,12 @@ function RangePicker({ value, onChange }: { value: Range; onChange: (r: Range) =
   );
 }
 
-function SectionTitle({ n, title, children }: { n: string; title: string; children: ReactNode }) {
+function SectionTitle({ id, n, title, children }: { id: string; n: string; title: string; children: ReactNode }) {
   return (
-    <div className="mb-4 mt-12 flex items-start gap-3">
-      <span className="num mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-surface-2 text-xs font-semibold text-ink-2" aria-hidden>
-        {n}
-      </span>
-      <div>
-        <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
-        <p className="mt-0.5 text-sm text-ink-2">{children}</p>
-      </div>
+    <div id={id} className="mb-4 mt-14 scroll-mt-20 border-t border-line pt-8">
+      <p className="num font-mono text-[11px] uppercase tracking-[0.1em] text-ink-3">{n}</p>
+      <h2 className="mt-1.5 text-lg font-semibold tracking-tight">{title}</h2>
+      <p className="mt-0.5 text-sm text-ink-2">{children}</p>
     </div>
   );
 }
@@ -65,21 +63,43 @@ export function Dashboard({ model }: { model: DashboardModel }) {
 
   const m = model;
   return (
-    <div className="mx-auto w-full max-w-[1240px] px-4 pb-24 sm:px-6">
-      {/* ---------- KPI ---------- */}
+    <div className="mx-auto w-full max-w-[1240px] px-4 pb-24 sm:px-8">
+      {/* ---------- Ringkasan ---------- */}
       <section aria-label="Indikator utama" className="pt-8">
-        <div className="flex flex-wrap items-end justify-between gap-2">
+        <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Dashboard Perbankan Indonesia</h1>
-            <p className="mt-2 max-w-2xl text-[15px] leading-relaxed text-ink-2">
-              Eksplorasi suku bunga, kredit, dan uang beredar dari lima tabel statistik BPS (sumber asli: Bank Indonesia). Data terbaru kredit: {m.latestLabel}.
+            <h1 className="text-2xl font-semibold tracking-tight">Ringkasan</h1>
+            <p className="mt-1 text-sm text-ink-2">
+              Data kredit terbaru {m.latestLabel} · sumber {m.origin === "supabase" ? "Supabase (Postgres)" : "hasil ETL lokal"}
             </p>
           </div>
-          <span className="rounded-full border border-line bg-surface px-3 py-1 text-xs text-ink-2">
-            Sumber data: {m.origin === "supabase" ? "Supabase (Postgres)" : "hasil ETL lokal"}
-          </span>
+          <div className="flex items-center gap-2">
+            <Link
+              href="/dashboard/data"
+              className="flex h-9 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-sm font-medium text-ink transition-colors hover:bg-surface-2"
+            >
+              <Database size={15} aria-hidden /> Data & ETL
+            </Link>
+            <a
+              href="#suku-bunga"
+              className="flex h-9 items-center gap-1.5 rounded-lg bg-primary px-3.5 text-sm font-medium text-primary-ink transition-opacity hover:opacity-90"
+            >
+              Mulai eksplorasi <ArrowDown size={15} aria-hidden />
+            </a>
+          </div>
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
+
+        <div className="card mt-6 flex items-start gap-3 p-4">
+          <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-warn-bg text-warn" aria-hidden>
+            <Sparkles size={16} />
+          </span>
+          <div className="min-w-0 text-sm">
+            <p className="font-semibold">Sorotan bulan ini</p>
+            <p className="mt-0.5 leading-relaxed text-ink-2">{m.scatter.insight}</p>
+          </div>
+        </div>
+
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-5">
           {m.kpis.map((k) => (
             <KpiCard key={k.id} kpi={k} />
           ))}
@@ -87,8 +107,7 @@ export function Dashboard({ model }: { model: DashboardModel }) {
       </section>
 
       {/* ---------- 1. Suku bunga ---------- */}
-      <div id="suku-bunga" />
-      <SectionTitle n="1" title="Bagaimana arah suku bunga?">
+      <SectionTitle id="suku-bunga" n="01 · Suku bunga" title="Bagaimana arah suku bunga?">
         BI Rate, bunga kredit, dan bunga deposito pada satuan yang sama (persen).
       </SectionTitle>
       <div className="grid gap-4">
@@ -186,8 +205,7 @@ export function Dashboard({ model }: { model: DashboardModel }) {
       </div>
 
       {/* ---------- 2. Kredit sektor ---------- */}
-      <div id="kredit" />
-      <SectionTitle n="2" title="Ke mana kredit mengalir?">
+      <SectionTitle id="kredit" n="02 · Kredit" title="Ke mana kredit mengalir?">
         Posisi kredit rupiah + valas per lapangan usaha, {m.sectorSize.period}.
       </SectionTitle>
       <div className="grid gap-4 lg:grid-cols-2">
@@ -246,8 +264,7 @@ export function Dashboard({ model }: { model: DashboardModel }) {
       </div>
 
       {/* ---------- 3. Uang beredar ---------- */}
-      <div id="uang-beredar" />
-      <SectionTitle n="3" title="Seberapa banyak uang beredar, dan dalam bentuk apa?">
+      <SectionTitle id="uang-beredar" n="03 · Uang beredar" title="Seberapa banyak uang beredar, dan dalam bentuk apa?">
         Komponen M2 dalam triliun rupiah dan distribusi pertumbuhan bulanannya.
       </SectionTitle>
       <div className="grid gap-4 lg:grid-cols-2">
@@ -307,8 +324,7 @@ export function Dashboard({ model }: { model: DashboardModel }) {
       </div>
 
       {/* ---------- 4. Bank ---------- */}
-      <div id="bank" />
-      <SectionTitle n="4" title="Siapa yang memberi bunga kredit paling murah?">
+      <SectionTitle id="bank" n="04 · Kelompok bank" title="Siapa yang memberi bunga kredit paling murah?">
         Suku bunga kredit rupiah menurut kelompok bank dan tujuan kredit.
       </SectionTitle>
       <div className="grid gap-4">

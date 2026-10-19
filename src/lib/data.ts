@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import bundle from "../../data/processed/bundle.json";
 import { createClient } from "@/lib/supabase/server";
 import { hasSupabase } from "@/lib/supabase/env";
@@ -31,6 +32,7 @@ function fromBundle(): Warehouse {
 /** Baca data warehouse dari Supabase (jika terkonfigurasi & terisi), selain itu dari hasil ETL lokal. */
 export async function loadWarehouse(): Promise<Warehouse> {
   if (!hasSupabase) return fromBundle();
+  await connection(); // data dibaca dengan sesi pengguna (RLS), jadi selalu saat request
 
   try {
     const sb = await createClient();

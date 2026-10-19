@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import { ExternalLink } from "lucide-react";
 import { PageSkeleton } from "@/components/PageSkeleton";
-import { AppHeader } from "@/components/AppHeader";
 import { loadWarehouse } from "@/lib/data";
 import { fmtNum, fmtPeriod } from "@/lib/format";
 
@@ -27,22 +26,22 @@ async function DataContent() {
   });
 
   return (
-      <div className="mx-auto w-full max-w-[1240px] px-4 pb-24 pt-8 sm:px-6">
-        <h1 className="text-3xl font-semibold tracking-tight">Data & pipeline ETL</h1>
+      <div className="mx-auto w-full max-w-[1240px] px-4 pb-24 pt-8 sm:px-8">
+        <h1 className="text-2xl font-semibold tracking-tight">Data & pipeline ETL</h1>
         <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-ink-2">
           Lima dataset perbankan dari BPS dalam tiga format sumber (CSV, XLSX, JSON) diekstrak, ditransformasi (unpivot, parsing angka desimal koma,
           validasi, deduplikasi), lalu dimuat ke Postgres di Supabase. Dashboard membaca tabel hasil ETL ini.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-2 text-xs">
-          <span className="rounded-full border border-line bg-surface px-3 py-1 text-ink-2">
+          <span className="rounded-md border border-line bg-surface px-2.5 py-1 text-ink-2">
             Sumber aktif: {w.origin === "supabase" ? "Supabase (Postgres)" : "hasil ETL lokal (data/processed)"}
           </span>
-          <span className="rounded-full border border-line bg-surface px-3 py-1 text-ink-2">{fmtNum(w.observations.length)} observasi</span>
-          <span className="rounded-full border border-line bg-surface px-3 py-1 text-ink-2">{w.datasets.length} dataset</span>
+          <span className="rounded-md border border-line bg-surface px-2.5 py-1 text-ink-2">{fmtNum(w.observations.length)} observasi</span>
+          <span className="rounded-md border border-line bg-surface px-2.5 py-1 text-ink-2">{w.datasets.length} dataset</span>
         </div>
 
-        <div className="mt-6 overflow-x-auto rounded-2xl border border-line bg-surface">
+        <div className="mt-6 overflow-x-auto card">
           <table className="w-full min-w-[900px] border-collapse text-left text-[13px]">
             <thead className="bg-surface-2 text-ink-2">
               <tr>
@@ -84,7 +83,7 @@ async function DataContent() {
                       href={d.source_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-accent underline-offset-2 hover:underline"
+                      className="inline-flex items-center gap-1 font-medium text-ink underline-offset-2 hover:underline"
                     >
                       Buka <ExternalLink size={12} aria-hidden />
                     </a>
@@ -101,7 +100,7 @@ async function DataContent() {
             ["2 · Transform", "Unpivot 12 kolom bulan menjadi baris periode, ubah “4,75” menjadi 4.75, “-” menjadi kosong, validasi tahun/nilai, petakan label kategori ke kunci dimensi, hapus duplikat berdasarkan kunci utama."],
             ["3 · Load", "Upsert berbatch ke Supabase (datasets, dimensions, observations) dengan service role, lalu catat audit pada etl_runs. RLS membatasi baca hanya untuk pengguna login."],
           ].map(([t, b]) => (
-            <article key={t} className="rounded-2xl border border-line bg-surface p-5">
+            <article key={t} className="card p-5">
               <h2 className="font-semibold">{t}</h2>
               <p className="mt-2 text-[13px] leading-relaxed text-ink-2">{b}</p>
             </article>
@@ -113,15 +112,8 @@ async function DataContent() {
 
 export default function DataPage() {
   return (
-    <>
-      <Suspense fallback={<div className="h-14 border-b border-line" />}>
-        <AppHeader />
-      </Suspense>
-      <main className="flex-1">
-        <Suspense fallback={<PageSkeleton />}>
-          <DataContent />
-        </Suspense>
-      </main>
-    </>
+    <Suspense fallback={<PageSkeleton />}>
+      <DataContent />
+    </Suspense>
   );
 }

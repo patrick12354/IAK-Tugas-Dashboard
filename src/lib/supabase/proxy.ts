@@ -2,9 +2,10 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { hasSupabase } from "./env";
 
-const PUBLIC_PATHS = ["/login", "/auth"];
+const PUBLIC_PATHS = ["/login", "/signup", "/auth"];
+const AUTH_PAGES = ["/login", "/signup"];
 
-/** Refresh sesi Supabase + lindungi semua halaman selain /login. */
+/** Refresh sesi Supabase + lindungi semua halaman selain landing, /login, /signup, dan /auth. */
 export async function updateSession(request: NextRequest) {
   if (!hasSupabase) return NextResponse.next({ request }); // mode lokal
 
@@ -29,7 +30,7 @@ export async function updateSession(request: NextRequest) {
   const { data } = await supabase.auth.getClaims();
   const isAuthed = Boolean(data?.claims);
   const { pathname } = request.nextUrl;
-  const isPublic = PUBLIC_PATHS.some((p) => pathname === p || pathname.startsWith(`${p}/`));
+  const isPublic = pathname === "/" || PUBLIC_PATHS.some((p) => pathname === p || pathname.startsWith(`${p}/`));
 
   if (!isAuthed && !isPublic) {
     const url = request.nextUrl.clone();
@@ -37,7 +38,7 @@ export async function updateSession(request: NextRequest) {
     url.search = "";
     return NextResponse.redirect(url);
   }
-  if (isAuthed && pathname === "/login") {
+  if (isAuthed && AUTH_PAGES.includes(pathname)) {
     const url = request.nextUrl.clone();
     url.pathname = "/dashboard";
     return NextResponse.redirect(url);

@@ -1,17 +1,30 @@
 @import "tailwindcss";
+/* Jangan pindai folder laporan/data: Word menulis file .tmp terkunci di sana saat build laporan. */
+@source not "../../paper";
+@source not "../../data";
 
-/* Token warna mengikuti palet dataviz yang sudah divalidasi (lihat laporan, bab Desain). */
+/* Token warna. Palet seri grafik (--s1..--s3, sequential, diverging) mengikuti palet dataviz yang sudah divalidasi;
+   permukaan memakai netral ala konsol operasional: latar abu sangat muda, kartu putih, garis tipis. */
 :root {
   color-scheme: light;
-  --page: #f9f9f7;
-  --surface: #fcfcfb;
-  --surface-2: #f3f2ee;
-  --ink: #0b0b0b;
-  --ink-2: #52514e;
-  --ink-3: #6f6d68;
-  --grid: #e1e0d9;
-  --axis: #c3c2b7;
-  --border: rgba(11, 11, 11, 0.1);
+  --page: #fafafa;
+  --surface: #ffffff;
+  --surface-2: #f4f4f5;
+  --sidebar: #f7f7f7;
+  --ink: #0a0a0a;
+  --ink-2: #52525b;
+  --ink-3: #71717a;
+  --grid: #e7e7e4;
+  --axis: #c9c9c4;
+  --border: rgba(10, 10, 10, 0.08);
+  --primary: #0a0a0a;
+  --primary-ink: #ffffff;
+  --pos: #15803d;
+  --pos-bg: #e8f6ec;
+  --neg: #b91c1c;
+  --neg-bg: #fdecec;
+  --warn: #b45309;
+  --warn-bg: #fdf3e2;
 
   --s1: #2a78d6; /* biru   */
   --s2: #eb6834; /* oranye */
@@ -36,15 +49,24 @@
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
     color-scheme: dark;
-    --page: #0d0d0d;
-    --surface: #1a1a19;
-    --surface-2: #232321;
-    --ink: #f0efec;
-    --ink-2: #c3c2b7;
-    --ink-3: #9a988f;
-    --grid: #2c2c2a;
-    --axis: #383835;
-    --border: rgba(255, 255, 255, 0.1);
+    --page: #0a0a0a;
+    --surface: #131313;
+    --surface-2: #1c1c1c;
+    --sidebar: #0e0e0e;
+    --ink: #f4f4f5;
+    --ink-2: #b4b4bb;
+    --ink-3: #8b8b93;
+    --grid: #262626;
+    --axis: #3a3a3a;
+    --border: rgba(255, 255, 255, 0.09);
+    --primary: #f4f4f5;
+    --primary-ink: #0a0a0a;
+    --pos: #4ade80;
+    --pos-bg: rgba(74, 222, 128, 0.12);
+    --neg: #f87171;
+    --neg-bg: rgba(248, 113, 113, 0.12);
+    --warn: #fbbf24;
+    --warn-bg: rgba(251, 191, 36, 0.12);
     --s1: #3987e5;
     --s2: #d95926;
     --s3: #199e70;
@@ -64,15 +86,24 @@
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --page: #0d0d0d;
-  --surface: #1a1a19;
-  --surface-2: #232321;
-  --ink: #f0efec;
-  --ink-2: #c3c2b7;
-  --ink-3: #9a988f;
-  --grid: #2c2c2a;
-  --axis: #383835;
-  --border: rgba(255, 255, 255, 0.1);
+  --page: #0a0a0a;
+  --surface: #131313;
+  --surface-2: #1c1c1c;
+  --sidebar: #0e0e0e;
+  --ink: #f4f4f5;
+  --ink-2: #b4b4bb;
+  --ink-3: #8b8b93;
+  --grid: #262626;
+  --axis: #3a3a3a;
+  --border: rgba(255, 255, 255, 0.09);
+  --primary: #f4f4f5;
+  --primary-ink: #0a0a0a;
+  --pos: #4ade80;
+  --pos-bg: rgba(74, 222, 128, 0.12);
+  --neg: #f87171;
+  --neg-bg: rgba(248, 113, 113, 0.12);
+  --warn: #fbbf24;
+  --warn-bg: rgba(251, 191, 36, 0.12);
   --s1: #3987e5;
   --s2: #d95926;
   --s3: #199e70;
@@ -93,19 +124,28 @@
   --color-page: var(--page);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
+  --color-sidebar: var(--sidebar);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-ink-3: var(--ink-3);
   --color-grid: var(--grid);
   --color-line: var(--border);
   --color-accent: var(--accent);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-pos: var(--pos);
+  --color-pos-bg: var(--pos-bg);
+  --color-neg: var(--neg);
+  --color-neg-bg: var(--neg-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
   --font-sans: var(--font-geist-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5.5rem;
+  scroll-padding-top: 4.5rem;
 }
 
 body {
@@ -125,6 +165,13 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(10, 10, 10, 0.03);
+}
+
 /* Recharts: tipografi & grid yang tenang */
 .recharts-text {
   fill: var(--ink-3);
@@ -142,6 +189,87 @@ body {
   outline: none;
 }
 
+/* ---------- Landing & auth: selalu gelap, gaya sinematik ---------- */
+.stage {
+  background: #000;
+  color: #f4f4f5;
+  color-scheme: dark;
+  --focus: #b9a8ff;
+}
+/* "Cakrawala": bola hitam raksasa dengan rim light ungu di tepi atasnya. */
+.horizon {
+  position: absolute;
+  left: 50%;
+  width: max(190%, 1400px);
+  aspect-ratio: 2 / 1;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #000;
+  box-shadow:
+    0 -1px 0 rgba(236, 230, 255, 0.95),
+    0 -10px 36px rgba(190, 170, 255, 0.55),
+    0 -60px 140px rgba(124, 92, 255, 0.45),
+    0 -150px 280px rgba(90, 60, 230, 0.32);
+}
+.glow-top {
+  background: radial-gradient(70% 55% at 50% -10%, rgba(255, 255, 255, 0.09), transparent 70%);
+}
+.btn-tactile {
+  background: linear-gradient(#fafafa, #d6d6dc);
+  color: #0a0a0a;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 1px 2px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.15);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.btn-tactile:hover {
+  background: linear-gradient(#ffffff, #e2e2e7);
+}
+.btn-tactile:active {
+  transform: scale(0.98);
+}
+.btn-ghost-dark {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  transition: background 0.15s ease;
+}
+.btn-ghost-dark:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+.field-dark {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.15s ease, background 0.15s ease;
+}
+.field-dark:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow:
+    inset 0 0 0 1px rgba(185, 168, 255, 0.7),
+    0 0 0 3px rgba(124, 92, 255, 0.25);
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  animation: marquee 45s linear infinite;
+}
+.marquee:hover {
+  animation-play-state: paused;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.rise {
+  animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -150,11 +278,15 @@ body {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
   }
+  .marquee {
+    animation: none;
+  }
 }
 
 @media print {
   header,
-  nav {
+  nav,
+  aside {
     display: none !important;
   }
 }

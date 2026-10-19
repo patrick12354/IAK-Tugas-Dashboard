@@ -32,11 +32,11 @@ export function ChartCard({ id, title, subtitle, insight, why, table, controls, 
     <section
       id={id}
       aria-labelledby={`${uid}-t`}
-      className={`flex flex-col rounded-2xl border border-line bg-surface p-5 sm:p-6 ${className}`}
+      className={`card flex scroll-mt-20 flex-col p-5 sm:p-6 ${className}`}
     >
       <div>
         <div className="min-w-0">
-          <h3 id={`${uid}-t`} className="text-[17px] font-semibold leading-snug tracking-tight">
+          <h3 id={`${uid}-t`} className="text-[15px] font-semibold leading-snug tracking-tight">
             {title}
           </h3>
           <p className="mt-1 text-sm leading-relaxed text-ink-2">{subtitle}</p>
@@ -70,7 +70,7 @@ export function ChartCard({ id, title, subtitle, insight, why, table, controls, 
         {view === "chart" ? children : <DataTable data={table} />}
       </div>
 
-      <p className="mt-4 flex gap-2 rounded-xl bg-surface-2 px-3.5 py-3 text-[13px] leading-relaxed text-ink-2">
+      <p className="mt-4 flex gap-2 rounded-lg border border-line bg-surface-2/60 px-3.5 py-3 text-[13px] leading-relaxed text-ink-2">
         <Lightbulb size={16} className="mt-0.5 shrink-0 text-ink-3" aria-hidden />
         <span>
           <span className="font-semibold text-ink">Insight. </span>
@@ -101,7 +101,7 @@ export function ChartCard({ id, title, subtitle, insight, why, table, controls, 
 
 export function DataTable({ data }: { data: TableData }) {
   return (
-    <div className="max-h-[360px] overflow-auto rounded-xl border border-line">
+    <div className="max-h-[360px] overflow-auto rounded-lg border border-line">
       <table className="num w-full border-collapse text-left text-[13px]">
         <thead className="sticky top-0 bg-surface-2 text-ink-2">
           <tr>
